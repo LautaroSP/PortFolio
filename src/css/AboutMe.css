@@ -1,0 +1,82 @@
+.Card1 {
+    margin: 15px;
+    background-color: #1c1c1c75;
+    border-radius: 15px;
+    color: whitesmoke;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+.title {
+    color: whitesmoke;
+    margin: 5px;
+    text-align: center;
+}
+.Card1 h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.Card1 p{
+    margin: 7px;
+}
+
+.Card2{
+    margin: 15px;
+    background-color: #1c1c1c75;
+    border-radius: 15px;
+    color: whitesmoke;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Card2 h2 {
+    text-align: center;
+    margin: 0;
+}
+.InsideCards {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.InsideCards div {
+    margin: 15px;
+    background-color: #1c1c1cd8;
+    border-radius: 15px;    
+    width: 80px;
+    text-align: center;
+}
+
+.InsideCards div i {
+    margin: 5px 0 5px 0;
+}
+
+.InsideCards div p {
+    margin: 5px;
+    font-size: 12px;
+}
+
+.p2{
+    text-align: center;
+}
+.p3 {
+    text-align: end;
+}
+
+@media (min-width: 900px){
+    .mainDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Card1, .Card2{
+        width: 300px;
+        height: 360px;
+    }
+
+    .Card2 p{
+        text-align: center;
+    }
+}

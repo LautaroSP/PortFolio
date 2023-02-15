@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body {
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* font-family: 'Staatliches', cursive; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+audio {
+    opacity: 0.3;
+    margin-top: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.audioR {
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#audio {
+    display: none
 }
 
-.App-link {
-  color: #61dafb;
+.audioR a {
+    text-decoration: underline;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.audioR p {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+a:visited {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+.info {
+    margin-bottom: 100px;
+}
+
+.iconsBot {
+    color: whitesmoke;
+    display: flex;
+}
+.iconsBot .a1{
+    font-size: 30px;
+    margin: 5px;
+    text-decoration: none;
+    position: fixed;
+}
+.iconsBot .a2{
+    font-size: 30px;
+    margin: 5px;
+    text-decoration: none;
+    position: fixed;
+}
+
+.a1, .a2 {
+    bottom: 30px;
+    opacity: 0.7;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.a2{
+    left: 60px;
 }

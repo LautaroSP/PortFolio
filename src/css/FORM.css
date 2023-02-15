@@ -1,0 +1,48 @@
+.FORM {
+    margin: 15px;
+    background-color: #1c1c1c75;
+    border-radius: 15px;
+    color: whitesmoke;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    min-width: 220px;
+    width: 50%;
+    opacity: 0.7;
+    margin: 10px 5px;
+}
+
+textarea {
+    min-width: 220px;
+    width: 50%;
+    opacity: 0.7;
+    margin: 10px 5px;
+}
+
+.button-85 {
+    margin: 15px;
+    text-align: center;
+    background-color: #1c1c1c;
+    color: whitesmoke;
+    border-radius: 15px;
+    width: 100px;
+    padding: 5px;
+}
+.error {
+    color: rgb(233, 47, 47);
+    display: none;
+}
+
+@media (min-width: 900px){
+    .FORM{
+        max-width: 50%;
+        margin: auto;
+    }
+}

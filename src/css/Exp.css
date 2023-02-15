@@ -1,0 +1,24 @@
+.CardWork {
+    margin: 15px;
+    background-color: #1c1c1c75;
+    border-radius: 15px;
+    color: whitesmoke;
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.titleWork {
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 900px){
+    .TotalEXP {
+        display: flex;
+        justify-content: center;
+    }
+    .Exp, .edu {
+        width: 45%;
+    }
+}
