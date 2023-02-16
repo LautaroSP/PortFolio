@@ -15,8 +15,9 @@ export default function MainContent() {
             <img src={Profile} alt="ProfileFoto"/>
             <div className="subMain">
                 
-                <h2>¡Bienvenido a mi Portfolio!</h2>
-                <p>Secciones!(Hace click o scroll para explorar)</p>
+                <h2>¡Bienvenido a mi Web!</h2>
+                <p>Secciones!</p>
+                <p>(Hace click o scroll para explorar)</p>
                 <ul>
                     <Link  to="about" spy={true} smooth={true} offset={0} duration={500}>¿Quien soy?</Link>
                     <Link  to="proyects" spy={true} smooth={true} offset={-600} duration={500}>Mis Proyectos</Link>
