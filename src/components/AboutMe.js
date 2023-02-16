@@ -13,7 +13,7 @@ export default function AboutMe(){
         <div className="Card1" data-aos="zoom-in">
         <h2>Breve Resumen:</h2>
         <p>Mi nombre es Lautaro Parandelli, naci el 27/02/1997, soy desarrollador web, tecnico en electroncia y estoy estudiando ingenieria en informatica en la Universidad De La Matanza.
-        Tengo conocimientos en HTML, CSS , JavaScript , React, MySQL , tambien se un poco de C y C++.
+        Tengo conocimientos en HTML, CSS , JavaScript , React, MySQL , API REST, armado de API, Postman, tambien se un poco de C y C++.
         Trabaje de soporte en empresas de IT, llevo en esta posicion 3 años.
         Siempre me gusto programar , termine el curso de Digital House en Febrero del 2023 y estoy buscando dar los primeros pasos como programador!
         </p>
