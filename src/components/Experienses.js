@@ -1,4 +1,5 @@
 import '../css/Exp.css'
+import Certi from '../Titulo.png'
 
 export default function Experienses() {
     return (
@@ -54,8 +55,16 @@ export default function Experienses() {
                 </div>
                 <div className='CardWork'>
                     <h3>Desarrollador web Fullstack</h3>
+                    <div className='certif'>
+                    <div>
                     <p>Digital House</p>
                     <p>Finalizado</p>
+                    </div>
+                    <div className='imgdiv'>
+                        <img src={Certi} alt='certificacion' />
+                    </div>
+                    </div>
+
                 </div>
                 <div className='CardWork'>
                     <h3>Tencnico en electronica</h3>

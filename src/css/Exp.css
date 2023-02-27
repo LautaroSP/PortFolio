@@ -12,13 +12,30 @@
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
 }
+.certif {
+    display: flex;
+    justify-content: space-between;
+}
 
-@media (min-width: 900px){
+.certif img {
+    width: 400px;
+    margin-right: 40px;
+}
+@media (min-width: 975px){
     .TotalEXP {
         display: flex;
         justify-content: center;
     }
     .Exp, .edu {
         width: 45%;
+    }
+    .certif {
+        flex-direction: column;
+    }
+    .imgdiv {
+        align-self: center;
+    }
+    .certif img {
+        margin:0;
     }
 }
