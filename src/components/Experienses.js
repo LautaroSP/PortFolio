@@ -25,7 +25,7 @@ export default function Experienses() {
                         <li>Ser parte de un equipo de tester (QA)</li>
                         <li>Control de las 3 plataformas de la empresa.</li>
                         <li> Soporte interno a profesores/productores que presenten algun BUG.</li>
-                        <li>Creación de usuarios en las distintas plaformas.</li>
+                        <li>Creación de usuarios en las distintas plataformas.</li>
                     </ul>
                 </div>
                 <div className='CardWork'>
@@ -67,7 +67,7 @@ export default function Experienses() {
 
                 </div>
                 <div className='CardWork'>
-                    <h3>Tencnico en electronica</h3>
+                    <h3>Tecnico en electronica</h3>
                     <p>ETN17 Don Coornelio Saavedra</p>
                     <p>Secundario</p>
                     <p>Finalizado</p>
